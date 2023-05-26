@@ -27,16 +27,17 @@ Una vez arrancado Node-Red abre un navegador y entra a la URL localhost:1880
 
 ## Instrucciones 
 
-Flow 3: Panel de control con Nodos Dashboard
-Requisitos
-Contar con los nodos dashboard
+1. Duplicar el flow 2 con las mecanicas de exportar e importar
+2. Renombrar el flow a Flow 3
+3. Agregar el nodo texto
+4. Crear una pestaña en la sección Dashboard
+5. Crear un grupo
+6. Configurar el nodo texto para que se visualice en el grupo recien creado
+7. Hacer clic en Deploy y consultar el [Dashboard](http://localhost:1880/ui)
 
-Instrucciones
-Duplicar el flow 2 con las mecanicas de exportar e importar
-Renombrar el flow a Flow 3
-Agregar el nodo texto
-Crear una pestaña en la sección Dashboard
-Crear un grupo
-Configurar el nodo texto para que se visualice en el grupo recien creado
-Hacer clic en Deploy y consultar el Dashboard
+
+## Resultados
+
+![](flow3/figura1.png)
+![](flow3/figura2.png)
 
