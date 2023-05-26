@@ -21,9 +21,22 @@ Nota: Si instalaste el contenedor de acurdo con el ejercicio Creación de una Ap
 
 Una vez arrancado Node-Red abre un navegador y entra a la URL localhost:1880
 
-## Instalar nodos Dashboard
-
 ### Abrir el gestor del paletas
 
 ![](https://edu.codigoiot.com/pluginfile.php/22214/mod_lesson/page_contents/3828/ej_3_1.jpg)
+
+## Instrucciones 
+
+Flow 3: Panel de control con Nodos Dashboard
+Requisitos
+Contar con los nodos dashboard
+
+Instrucciones
+Duplicar el flow 2 con las mecanicas de exportar e importar
+Renombrar el flow a Flow 3
+Agregar el nodo texto
+Crear una pestaña en la sección Dashboard
+Crear un grupo
+Configurar el nodo texto para que se visualice en el grupo recien creado
+Hacer clic en Deploy y consultar el Dashboard
 
