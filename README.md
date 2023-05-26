@@ -66,3 +66,57 @@ Da click en el botón edit junto a la pestaña nueva (Tab 1) para abrir su confi
 Camia el campo de Name para que diga *Fecha* y cierra la configuración dando click en _*Update*_.
 
 ![](flow3/figura7.png)
+
+# Grupos
+
+ Ya que tenemos una página (o pestaña) creada necesitamos agregar un grupo o sección. En este ejercicio sólo necesitamos un contenedor para el elemento que mostrará la fecha.
+
+Ubica la configuración de dashboard en el panel de información de la derecha y coloca el cursor sobre la pestaña fecha. Verás que aparecen tres opciones: + __group__, __edit__ y __layout__. Selecciona __+group__. 
+![](flow3/figura8.png)
+
+Verás que se crea el grupo Group 1. Coloca el cursor sobre esta opción y da click en el botón edit. Se abrirá la configuración del grupo y verás las siguientes opciones:
+
+- __Name__: El nombre del grupo.
+
+- __Tab__: En que pestaña debe de aparecer el grupo
+
+- __Class__: La clase CSS que debe darle estilo al grupo
+
+- __Width__: El ancho del grupo en la pantalla.
+
+- __Display group name__: Mostrar o esconder el nombre del grupo en la interfaz
+
+- __Allow group to be collapsed__: Permite colapsar y expandir los elementos del grupo.
+
+Cambia el nombre del grupo a Fecha y hora.
+![](flow3/figura9.png)
+
+# Nodo Texto
+
+Ya que tenemos configurados la pestaña y el grupo podemos agregar componentes a nuestro grupo. De la sección dashboard de la biblioteca de paletas arrastra un nodo _text_ (no confundir con __text input__) y conecta su entrada a la salida del nodo __function__.
+![](flow3/figura10.png)
+
+Verás que el nodo tiene un triángulo anaranjado encima, esto indica que está incompleta su configuración. Da dobel click sobre el nodo para abrir sus opciones. Verás lo siguiente:
+
+- Group: Permite seleccionar el grupo al que pertenece este objeto. La pestaña a la que pertenece el grupo se muestra entre paréntesis cuadrados con el formato [Pestaña] Grupo.
+
+- __Size__: Tamaño del elemento dentro del grupo.
+
+- __Label__: Encabezado que se mostrará acompañando a los datos
+
+- __Value format__: Permite definir qué datos mostrar
+
+- __Layout__: Controla como se acomodarán el encabezado y los datos recibidos.
+
+- __-Class__: La clase CSS que debe darle estilo al grupo
+
+- __Name__: Nombre del nodo que se mostrará en el editor visual
+
+Cambia el valor de Label para que diga Actual: y el valor de Layout a la opción que tiene el label arriba de value. Da click en el botón Done al terminar.
+![](flow3/figura11.png)
+
+# Deploy y resultados
+
+Es hora de dar click en el botón __deploy__. Si revisas la consola de depuración (ícono de insecto) verás que se sigue mostrando la fecha y hora en formato legible. Para ver el tablero que creamos navega a [](localhost:1880/ui). Verás la interfaz que configuramos con el nombre de la pestaña arriba a la izquierda y el grupo en el centro de la pantalla.
+
+![](flow3/resultado.png)
